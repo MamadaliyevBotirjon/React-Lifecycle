@@ -1,1 +1,18 @@
+React hayot sikli.
 
+  Hayot sikli deganda barchaning ko`z o`ngida, yaralishdan (tug`ilshdan) to o`lishgacha bolgan aylanma hodisalar gavdalanadi.
+  React hayot sikli ham huddi shunday bosqichlarga ega .
+  React hayot sikli sizga notanish so`zdek tuyulishi mumkin lekin React hayot siklini ba'zi bosqichlarini siz bajargansiz.
+  Bunga misol, siz componentlar yaratgansiz va ulardan foydalangansiz . React hayot sikli bu biror component yaratilib va o`sha component o`z vazifasini bajarib bolgach , uning o`chishi (o`lishi) React hayot sikli boladi. Ya'ni hayotiy yana bir misol (Honadagi chiroq) siz uyingizda deyarli harkuni ishlatadigan chiroq uni bir marta uy qurib bitqazilganda ornatilgan,  siz qorong` honaga kirganingda har safar undan foydalanasiz va unga ehtiyoj  bolmaganida uni ochirasiz. Shu chiroq har yonib o`chganda bitta hayot sikli sodir boladi.
+  React hayot sikli ham shunday qachon kerak bolganda ishlatiladi. Ya'ni birmarta yaratib qayta- qayta islatsh mumkin. endi chuqurroq tohtalamiz.
+     React hayot sikli 3 bosqichdan iborat .
+       1. MOUTING Component yaratiladi.
+       2. UP DATE Component o`zgartirilishi mumkin
+       3. UN MOUT Component o`chirilishi
+                     
+                                      MOUTING bosqichi:
+     Component yaratilishi MOUTING bosqichi deyiladi .
+     MOUTING bosqichi 3ta metodni o`z ichiga oladi.    (Constructior, Render, ComponentDidMount )                                
+ 
+
+ 
